@@ -1,0 +1,125 @@
+{
+  "pc": [
+    {
+      "id": 1,
+      "name": "Intel 10th Gen Core i7-10700 Custom Desktop PC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQllda2ElkxHa4WscbkRVbkK0BZEqRG9L3F5w&usqp=CAU",
+      "price": 31.99,
+      "description": "A computer is an electronic device that manipulates information, or data. It has the ability to store, retrieve, and process data. You may already know that you can use a computer to type documents, send email, play games, and browse the Web. You can also use it to edit or create spreadsheets, presentations, and even videos",
+      "features": [
+        "Intel 10th Gen Core i7-10700 Processor",
+        "Gigabyte B560M DS3H Plus 10th and 11th Gen Micro ATX Motherboard",
+        "Corsair DOMINATOR PLATINUM RGB 8GB DDR4 3600MHz RAM",
+        "Acer FA100 512GB M.2 SSD + Western Digital 1TB HDD"
+      ],
+      "status": "In Stock",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Intel Core i3-10100 10th Gen Desktop PC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgU4KSxjMkObgFYNW868NehMQVeSK9FZm0CA&usqp=CAU",
+      "price": 60532,
+      "description": "A computer is an electronic device that manipulates information, or data. It has the ability to store, retrieve, and process data. You may already know that you can use a computer to type documents, send email, play games, and browse the Web. You can also use it to edit or create spreadsheets, presentations, and even videos",
+      "features": [
+        "Intel 13th Gen Core i5-13400F Raptor Lake Processor",
+        "Asus B760M DS3H DDR4 13th and 12th Gen Micro ATX Motherboard",
+        "Corsair DOMINATOR PLATINUM RGB 8GB RAM + Acer FA100 512GB M.2 SSD",
+        "Colorful GeForce GTX 1650 NB 4GD6 V3-V 4GB GDDR6 Graphics Card"
+      ],
+      "status": "In Stock",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Intel Core i5-10400 10th Gen Desktop PC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtz_CNvVzyo6b8mqVLo2obxC3qRf-ScGY3hA&usqp=CAU",
+      "price": 33000,
+      "description": "A computer is an electronic device that manipulates information, or data. It has the ability to store, retrieve, and process data. You may already know that you can use a computer to type documents, send email, play games, and browse the Web. You can also use it to edit or create spreadsheets, presentations, and even videos",
+      "features": [
+        "Intel 10th Gen Core i5-10400 Processor",
+        "ASRock H510M-HDV/M.2 10th and 11th Gen Micro ATX Motherboard",
+        "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM",
+        "HP EX900 M.2 250GB PCIe NVMe Internal SSD"
+      ],
+      "status": "Out of stock",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "name": "HP Pro Tower 280 G9 Core i3 12th Gen 4GB RAM Desktop PC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_KSIbLSI30Nf1p7T5A3uQBSHDyUpNjfHmg&usqp=CAU",
+      "price": 49500,
+      "description": "A computer is an electronic device that manipulates information, or data. It has the ability to store, retrieve, and process data. You may already know that you can use a computer to type documents, send email, play games, and browse the Web. You can also use it to edit or create spreadsheets, presentations, and even videos",
+      "features": [
+        "Processor: Intel Core i3-12100 (12M Cache, 3.30 GHz to 4.30 GHz)",
+        "Memory: 4GB DDR4 RAM",
+        "Storage: 1TB 7200 rpm SATA HDD",
+        "HP P204v 19.5 Inch HD LED Monitor( Not Included)"
+      ],
+      "status": "Out of stock",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "name": "Lenovo IdeaCentre 3 07IAB7 Core i3 12th Gen Traditional Desktop PC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPBd9o-aAy1obQFRTw9jqLQiA0NFjHykGQmg&usqp=CAU",
+      "price": 49500,
+      "description": "A computer is an electronic device that manipulates information, or data. It has the ability to store, retrieve, and process data. You may already know that you can use a computer to type documents, send email, play games, and browse the Web. You can also use it to edit or create spreadsheets, presentations, and even videos",
+      "features": [
+        "Processor: Intel Core i3-12100 (12M Cache, up to 4.30 GHz)",
+        "ASRock B450M-HDV R4.0 AMD Motherboard",
+        "Graphics: Integrated Intel UHD 730",
+        "USB Calliope Keyboard & Mouse"
+      ],
+      "status": "In Stock",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "name": "AMD Ryzen 5 5600G Basic Video Editing Desktop PC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ47PN38dzQTIQDdpo4CCYvczu4lpo11xaNA&usqp=CAU",
+      "price": 49500,
+      "description": "A computer is an electronic device that manipulates information, or data. It has the ability to store, retrieve, and process data. You may already know that you can use a computer to type documents, send email, play games, and browse the Web. You can also use it to edit or create spreadsheets, presentations, and even videos",
+      "features": [
+        "AMD Ryzen 5 5600G Processor with Radeon Graphics (Chinese Edition)",
+        "ASRock B450M-HDV R4.0 AMD Motherboard",
+        "Corsair 16GB 3200MHz DDR4 RAM + HP EX900 250GB SSD",
+        "ViewSonic VA2209-H 22 IPS Full HD Monitor"
+      ],
+      "status": "In Stock",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "name": "AMD Ryzen 5 5600G Basic Video Editing Desktop PC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh8HZTDtvs33QbkodrJ2uSRT9bDWR1ztA_Tg&usqp=CAU",
+      "price": 69500,
+      "description": "A computer is an electronic device that manipulates information, or data. It has the ability to store, retrieve, and process data. You may already know that you can use a computer to type documents, send email, play games, and browse the Web. You can also use it to edit or create spreadsheets, presentations, and even videos",
+      "features": [
+        "AMD Ryzen 5 5600G Processor with Radeon Graphics (Chinese Edition)",
+        "ASRock B450M-HDV R4.0 AMD Motherboard",
+        "Corsair 16GB 3200MHz DDR4 RAM + HP EX900 250GB SSD",
+        "ViewSonic VA2209-H 22 IPS Full HD Monitor"
+      ],
+      "status": "In Stock",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "name": "AMD Ryzen 5 5600G Basic Video Editing Desktop PC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ47PN38dzQTIQDdpo4CCYvczu4lpo11xaNA&usqp=CAU",
+
+      "price": 23500,
+      "description": "A computer is an electronic device that manipulates information, or data. It has the ability to store, retrieve, and process data. You may already know that you can use a computer to type documents, send email, play games, and browse the Web. You can also use it to edit or create spreadsheets, presentations, and even videos",
+      "features": [
+        "AMD Ryzen 5 5600G Processor with Radeon Graphics (Chinese Edition)",
+        "ASRock B450M-HDV R4.0 AMD Motherboard",
+        "Corsair 16GB 3200MHz DDR4 RAM + HP EX900 250GB SSD",
+        "ViewSonic VA2209-H 22 IPS Full HD Monitor"
+      ],
+      "status": "In Stock",
+      "rating": 5
+    }
+  ]
+}
