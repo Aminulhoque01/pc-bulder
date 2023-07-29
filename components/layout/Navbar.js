@@ -73,10 +73,10 @@ const Navbar = () => {
         >
           <items>Monitor</items>
         </Link>
-        <Button onClick={()=>signOut()} type="primary" danger  style={{ textDecoration: "none", color: "white" , margin:"20px"}}>
+        <Button type="primary" primary  style={{ textDecoration: "none", color: "white" , margin:"20px"}}>
             Pc-Builder
         </Button>
-      { session?.user? <items>
+        { session?.user? <items>
           <Button onClick={()=>signOut()} type="primary" danger>
             Logout
           </Button>
