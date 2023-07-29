@@ -52,18 +52,7 @@ const PcDetailPage = ({ allPc }) => {
                 frontSize: "12px",
               }}
             >
-              {/* <span>
-                <CalendarOutlined />
-                {allPc?.release_date}
-              </span>
-              <span>
-                <CommentOutlined />
-                {allPc?.comment_count}
-              </span>
-              <span>
-                <ProfileOutlined />
-                {allPc?.category}
-              </span> */}
+              
 
               
 
@@ -97,8 +86,7 @@ export const getServerSideProps = async (context) => {
   const { params } = context;
   const res = await fetch(`http://localhost:5000/pc/${params.pcId}`);
   const data = await res.json();
-  console.log(data);
-
+  
   return {
     props: {
       allPc: data,

@@ -3,11 +3,13 @@ import Banner from "../../components/UI/Banner";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import AllPc from "../../components/UI/AllPc";
+import { useGetPcQuery } from "@/redux/api/api";
 
 
 
 const HomePage = ({allPc}) => {
-
+  const {data,isLoading,isError,error} = useGetPcQuery();
+  
   const DynamicBanner = dynamic(() => import('../../components/UI/Banner'), {
     loading: () => <h1>Loading...</h1>,
     ssr:false,
@@ -34,7 +36,7 @@ export default HomePage;
 export const getServerSideProps= async()=>{
   const res = await fetch("http://localhost:5000/pc");
   const data = await res.json();
- console.log(data)
+
   return{
     props:{
       allPc:data,
