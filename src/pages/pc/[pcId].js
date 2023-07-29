@@ -1,10 +1,13 @@
-
-import { CalendarOutlined, CommentOutlined, ProfileOutlined } from "@ant-design/icons";
+import {
+  CalendarOutlined,
+  CommentOutlined,
+  ProfileOutlined,
+} from "@ant-design/icons";
 import { Col, Row } from "antd";
 
 import Image from "next/image";
 
-const PcDetailPage = ({allPc}) => {
+const PcDetailPage = ({ allPc }) => {
   return (
     <div>
       <Row
@@ -49,7 +52,7 @@ const PcDetailPage = ({allPc}) => {
                 frontSize: "12px",
               }}
             >
-              <span>
+              {/* <span>
                 <CalendarOutlined />
                 {allPc?.release_date}
               </span>
@@ -60,7 +63,12 @@ const PcDetailPage = ({allPc}) => {
               <span>
                 <ProfileOutlined />
                 {allPc?.category}
-              </span>
+              </span> */}
+
+              
+
+              <span className="text-3xl">status:{allPc?.status}</span>
+              <span className="text-3xl">price:{allPc?.price}</span>
             </p>
 
             <p style={{ fontSize: "15px" }}>
@@ -68,8 +76,12 @@ const PcDetailPage = ({allPc}) => {
                 ? allPc?.description
                 : allPc?.description}
             </p>
-
-           
+            <ul className="space-y-1 text-lg">
+              <p className="text-2xl mt-5">features:</p>{" "}
+              {allPc?.features?.map((feature) => (
+                <ol key={feature}>{feature}</ol>
+              ))}
+            </ul>
           </div>
         </Col>
       </Row>
@@ -78,3 +90,18 @@ const PcDetailPage = ({allPc}) => {
 };
 
 export default PcDetailPage;
+
+
+
+export const getServerSideProps = async (context) => {
+  const { params } = context;
+  const res = await fetch(`http://localhost:5000/pc/${params.pcId}`);
+  const data = await res.json();
+  console.log(data);
+
+  return {
+    props: {
+      allPc: data,
+    },
+  };
+};

@@ -1,7 +1,7 @@
 {
   "pc": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Intel 10th Gen Core i7-10700 Custom Desktop PC",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQllda2ElkxHa4WscbkRVbkK0BZEqRG9L3F5w&usqp=CAU",
       "price": 31.99,
@@ -16,7 +16,7 @@
       "rating": 5
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Intel Core i3-10100 10th Gen Desktop PC",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgU4KSxjMkObgFYNW868NehMQVeSK9FZm0CA&usqp=CAU",
       "price": 60532,
@@ -31,7 +31,7 @@
       "rating": 5
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Intel Core i5-10400 10th Gen Desktop PC",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtz_CNvVzyo6b8mqVLo2obxC3qRf-ScGY3hA&usqp=CAU",
       "price": 33000,
@@ -46,7 +46,7 @@
       "rating": 5
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "HP Pro Tower 280 G9 Core i3 12th Gen 4GB RAM Desktop PC",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_KSIbLSI30Nf1p7T5A3uQBSHDyUpNjfHmg&usqp=CAU",
       "price": 49500,
@@ -61,7 +61,7 @@
       "rating": 5
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Lenovo IdeaCentre 3 07IAB7 Core i3 12th Gen Traditional Desktop PC",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPBd9o-aAy1obQFRTw9jqLQiA0NFjHykGQmg&usqp=CAU",
       "price": 49500,
@@ -76,7 +76,7 @@
       "rating": 5
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "AMD Ryzen 5 5600G Basic Video Editing Desktop PC",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ47PN38dzQTIQDdpo4CCYvczu4lpo11xaNA&usqp=CAU",
       "price": 49500,
@@ -91,7 +91,7 @@
       "rating": 5
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "AMD Ryzen 5 5600G Basic Video Editing Desktop PC",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh8HZTDtvs33QbkodrJ2uSRT9bDWR1ztA_Tg&usqp=CAU",
       "price": 69500,
@@ -106,7 +106,7 @@
       "rating": 5
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "AMD Ryzen 5 5600G Basic Video Editing Desktop PC",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ47PN38dzQTIQDdpo4CCYvczu4lpo11xaNA&usqp=CAU",
 
