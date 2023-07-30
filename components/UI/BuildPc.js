@@ -65,3 +65,4 @@ const BuildPc = ({ pc }) => {
 };
 
 export default BuildPc;
+

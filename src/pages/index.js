@@ -3,7 +3,7 @@ import Banner from "../../components/UI/Banner";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import AllPc from "../../components/UI/AllPc";
-import { useGetPcQuery } from "@/redux/api/api";
+import { useGetPcQuery } from "../redux/api/api";
 
 
 
@@ -33,16 +33,30 @@ const HomePage = ({allPc}) => {
 
 export default HomePage;
 
-export const getServerSideProps= async()=>{
-  const res = await fetch("http://localhost:5000/pc");
+// export const getServerSideProps= async()=>{
+ 
+//   const res = await fetch(`${process.env.URL}/pc`);
+//   const data = await res.json();
+
+//   return{
+//     props:{
+//       allPc:data,
+//     },
+//     // revalidate:10,
+//   }
+// }
+
+export const getStaticProps= async()=>{
+  
+
+  const res = await fetch(`${process.env.SER_URL}/api/pc`);
   const data = await res.json();
 
-  return{
+  return {
     props:{
-      allPc:data,
+      allPc:data.data,
     },
     // revalidate:10,
   }
 }
-
 

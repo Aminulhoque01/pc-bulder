@@ -12,7 +12,7 @@ const Builder = ({allPc}) => {
       
         <Col  className="gutter-row " span={12}>
             {
-                allPc.map((pc)=><BuildPc key={pc.id} pc={pc}></BuildPc>)
+                allPc?.map((pc)=><BuildPc key={pc.id} pc={pc}></BuildPc>)
             }
         </Col>
         
@@ -24,12 +24,12 @@ const Builder = ({allPc}) => {
 export default Builder;
 
 export const getServerSideProps= async()=>{
-    const res = await fetch("http://localhost:5000/pc");
+    const res = await fetch("https://pc-builder-aminulhoque01.vercel.app/api/pc");
     const data = await res.json();
   
     return{
       props:{
-        allPc:data,
+        allPc:data.data,
       },
       // revalidate:10,
     }

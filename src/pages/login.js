@@ -1,10 +1,11 @@
 import { useForm } from "react-hook-form";
-import auth from "@/firebase/firebase.auth";
+// import auth from "@/firebase/firebase.auth";
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { GoogleOutlined, GithubOutlined } from "@ant-design/icons";
 import Head from "next/head";
-import styles from "@/styles/Login.module.css";
+import styles from "../styles/login.module.css";
 import { signIn } from "next-auth/react";
+import auth from "../firebase/firebase.auth";
 
 const LoginPage = () => {
   const [

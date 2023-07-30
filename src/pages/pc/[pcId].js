@@ -82,11 +82,17 @@ export default PcDetailPage;
 
 
 
+
+
+
+
+
+
 export const getServerSideProps = async (context) => {
   const { params } = context;
-  const res = await fetch(`http://localhost:5000/pc/${params.pcId}`);
-  const data = await res.json();
-  
+  const res = await fetch(`http://localhost:3000/api/pc/${params.newsId}`);
+  const {data} = await res.json();
+
   return {
     props: {
       allPc: data,

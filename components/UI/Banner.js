@@ -6,8 +6,8 @@ import {
   ProfileOutlined,
 } from "@ant-design/icons";
 import Image from "next/image";
-import cpu from "@/assets/images/banner-images/cpu.jpeg";
-import pcc from "@/assets/images/banner-images/pc.jpeg";
+import cpu from "../../src/assets/images/banner-images/cpu.jpeg";
+import pcc from "../../src/assets/images/banner-images/pc.jpeg";
 
 const contentStyle = {
   height: "425px",
